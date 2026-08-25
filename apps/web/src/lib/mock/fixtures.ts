@@ -613,7 +613,7 @@ export let users: MockUser[] = [
   {
     id: USER_RASHID_BIN_SALEM,
     fullName: "Rashid Bin Salem",
-    email: "rashid.binsalem@globalsurf.ae",
+    email: "developer-lead@globalsurf.ae",
     role: SystemRole.TEAM_LEAD,
     designation: "Development Team Lead",
     skills: ["TypeScript", "Node.js", "System Design", "Code Review"],
