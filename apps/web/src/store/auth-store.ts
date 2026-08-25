@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import type { AuthenticatedUser, AuthTokens } from "@gs-workhub/shared";
+import type { AuthenticatedUser, AuthTokens } from "@/lib/shared";
 
 interface AuthState {
   user: AuthenticatedUser | null;

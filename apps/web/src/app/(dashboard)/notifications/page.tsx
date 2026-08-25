@@ -5,7 +5,7 @@ import { formatDistanceToNow, format } from "date-fns";
 import { useRouter } from "next/navigation";
 import { CheckCheck, Inbox } from "lucide-react";
 import { toast } from "sonner";
-import { NotificationType } from "@gs-workhub/shared";
+import { NotificationType } from "@/lib/shared";
 import { Badge, type BadgeProps } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

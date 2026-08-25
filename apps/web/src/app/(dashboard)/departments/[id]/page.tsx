@@ -6,7 +6,7 @@ import { useParams } from "next/navigation";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { Archive, ArrowLeft, Briefcase, Building2, Mail, Users2 } from "lucide-react";
 import { toast } from "sonner";
-import type { Department, Team } from "@gs-workhub/shared";
+import type { Department, Team } from "@/lib/shared";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

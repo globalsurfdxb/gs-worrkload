@@ -8,7 +8,7 @@ import { useParams, useRouter } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { z } from "zod";
-import { Priority, ProjectStatus, TaskStatus, type Department, type Team } from "@gs-workhub/shared";
+import { Priority, ProjectStatus, TaskStatus, type Department, type Team } from "@/lib/shared";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

@@ -2,7 +2,7 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { Building2, CheckCircle2, FolderKanban, Users } from "lucide-react";
-import { SystemRole } from "@gs-workhub/shared";
+import { SystemRole } from "@/lib/shared";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { api } from "@/lib/api-client";

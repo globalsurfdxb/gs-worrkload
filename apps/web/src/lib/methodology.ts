@@ -1,4 +1,4 @@
-import { ProjectMethodology } from "@gs-workhub/shared";
+import { ProjectMethodology } from "@/lib/shared";
 import type { BadgeProps } from "@/components/ui/badge";
 
 type BadgeVariant = NonNullable<BadgeProps["variant"]>;

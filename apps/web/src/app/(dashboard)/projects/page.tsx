@@ -15,7 +15,7 @@ import {
   type CreateProjectInput,
   type Department,
   type Team,
-} from "@gs-workhub/shared";
+} from "@/lib/shared";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

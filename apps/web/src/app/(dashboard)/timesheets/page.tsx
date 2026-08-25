@@ -20,7 +20,7 @@ import {
   TimesheetStatus,
   type CreateTimesheetEntryInput,
   type TimesheetEntry,
-} from "@gs-workhub/shared";
+} from "@/lib/shared";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

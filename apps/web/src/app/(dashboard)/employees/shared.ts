@@ -1,4 +1,4 @@
-import { EmployeeAvailability } from "@gs-workhub/shared";
+import { EmployeeAvailability } from "@/lib/shared";
 import type { BadgeProps } from "@/components/ui/badge";
 
 export const EMPLOYEE_AVAILABILITY_LABELS: Record<EmployeeAvailability, string> = {

@@ -1,4 +1,4 @@
-import { Priority, ProjectStatus, TaskStatus } from "@gs-workhub/shared";
+import { Priority, ProjectStatus, TaskStatus } from "@/lib/shared";
 import type { BadgeProps } from "@/components/ui/badge";
 
 type BadgeVariant = NonNullable<BadgeProps["variant"]>;

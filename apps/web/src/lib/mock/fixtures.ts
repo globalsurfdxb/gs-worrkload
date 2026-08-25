@@ -40,7 +40,7 @@ import {
   SystemRole,
   TaskStatus,
   TimesheetStatus,
-} from "@gs-workhub/shared";
+} from "@/lib/shared";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // ID + date helpers

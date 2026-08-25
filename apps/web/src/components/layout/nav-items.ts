@@ -1,4 +1,4 @@
-import { SystemRole } from "@gs-workhub/shared";
+import { SystemRole } from "@/lib/shared";
 import {
   Bug,
   Building2,

@@ -16,7 +16,7 @@ import {
   type ProjectStatus,
   type TaskStatus,
   type TimesheetStatus,
-} from "@gs-workhub/shared";
+} from "@/lib/shared";
 import { EMPLOYEE_AVAILABILITY_LABELS, availabilityBadgeVariant, formatDate, initials } from "../shared";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";

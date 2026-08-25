@@ -5,7 +5,7 @@ import { useQuery, useQueryClient, useMutation } from "@tanstack/react-query";
 import { format } from "date-fns";
 import { Download, FileText, History, Trash2, Upload } from "lucide-react";
 import { toast } from "sonner";
-import { SystemRole } from "@gs-workhub/shared";
+import { SystemRole } from "@/lib/shared";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

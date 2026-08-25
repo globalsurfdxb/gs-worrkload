@@ -1,7 +1,7 @@
 "use client";
 
 import { format } from "date-fns";
-import type { Team } from "@gs-workhub/shared";
+import type { Team } from "@/lib/shared";
 import { Badge } from "@/components/ui/badge";
 import { DevOverviewTab } from "./dev-overview-tab";
 

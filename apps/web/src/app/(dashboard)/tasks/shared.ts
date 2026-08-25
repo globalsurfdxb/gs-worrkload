@@ -1,4 +1,4 @@
-import { Priority, TaskStatus } from "@gs-workhub/shared";
+import { Priority, TaskStatus } from "@/lib/shared";
 import type { BadgeProps } from "@/components/ui/badge";
 
 export interface UserSummary {

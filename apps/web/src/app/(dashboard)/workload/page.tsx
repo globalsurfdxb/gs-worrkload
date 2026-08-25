@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { AlertTriangle, Gauge, TrendingDown, Users } from "lucide-react";
-import type { Department, WorkloadSummary } from "@gs-workhub/shared";
+import type { Department, WorkloadSummary } from "@/lib/shared";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";

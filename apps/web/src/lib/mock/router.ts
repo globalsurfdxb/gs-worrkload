@@ -22,7 +22,7 @@ import {
   SystemRole,
   TaskStatus,
   TimesheetStatus,
-} from "@gs-workhub/shared";
+} from "@/lib/shared";
 import { ApiError } from "../api-client";
 import { useAuthStore } from "@/store/auth-store";
 import {

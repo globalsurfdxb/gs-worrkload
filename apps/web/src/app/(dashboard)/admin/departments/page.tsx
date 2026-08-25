@@ -6,7 +6,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { Archive, ArchiveRestore, Pencil, Plus, ShieldAlert } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
-import { createDepartmentSchema, type CreateDepartmentInput, type Department } from "@gs-workhub/shared";
+import { createDepartmentSchema, type CreateDepartmentInput, type Department } from "@/lib/shared";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

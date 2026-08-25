@@ -8,7 +8,7 @@ import { ChevronDown, ChevronRight, Plus, Trash2 } from "lucide-react";
 import { Controller, useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { z } from "zod";
-import { Priority, TaskStatus } from "@gs-workhub/shared";
+import { Priority, TaskStatus } from "@/lib/shared";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";

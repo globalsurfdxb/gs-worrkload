@@ -4,7 +4,7 @@ import { useMemo, useState, type DragEvent } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { Controller, useForm } from "react-hook-form";
-import { createTaskSchema, Priority, TaskStatus, type CreateTaskInput } from "@gs-workhub/shared";
+import { createTaskSchema, Priority, TaskStatus, type CreateTaskInput } from "@/lib/shared";
 import { LayoutGrid, List as ListIcon, Plus } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";

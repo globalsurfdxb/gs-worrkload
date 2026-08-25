@@ -17,7 +17,7 @@ import {
   TaskStatus,
   type Department,
   type Team,
-} from "@gs-workhub/shared";
+} from "@/lib/shared";
 import type { BadgeProps } from "@/components/ui/badge";
 import { api } from "@/lib/api-client";
 import { useAuthStore } from "@/store/auth-store";

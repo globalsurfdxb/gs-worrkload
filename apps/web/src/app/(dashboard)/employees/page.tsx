@@ -8,7 +8,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { Plus, Search } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
-import { EmployeeAvailability, SystemRole, type Department } from "@gs-workhub/shared";
+import { EmployeeAvailability, SystemRole, type Department } from "@/lib/shared";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
