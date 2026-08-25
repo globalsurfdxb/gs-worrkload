@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Palette matches docs/wireframe walkthrough exactly (same source hex values,
+     converted to HSL) so the running app and the mockup read as one system. */
+  :root {
+    --background: 280 18% 97%;
+    --foreground: 272 24% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 272 24% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 272 24% 12%;
+
+    /* Brand primary #CC007A */
+    --primary: 324 100% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Brand secondary #00A8E1 */
+    --secondary: 195 100% 44%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 270 21% 95%;
+    --muted-foreground: 270 7% 42%;
+
+    --accent: 330 82% 96%;
+    --accent-foreground: 324 100% 30%;
+
+    --destructive: 0 53% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 156 66% 33%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 36 71% 42%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 275 19% 88%;
+    --input: 275 19% 88%;
+    --ring: 324 100% 40%;
+
+    --radius: 0.625rem;
+  }
+
+  :root[data-theme="dark"],
+  .dark {
+    --background: 267 20% 9%;
+    --foreground: 277 31% 95%;
+
+    --card: 268 21% 12%;
+    --card-foreground: 277 31% 95%;
+
+    --popover: 268 21% 12%;
+    --popover-foreground: 277 31% 95%;
+
+    /* Brighter brand primary for dark surfaces, #FF5FAE */
+    --primary: 330 100% 69%;
+    --primary-foreground: 323 44% 7%;
+
+    /* Brighter brand secondary for dark surfaces, #3FC3F0 */
+    --secondary: 195 86% 59%;
+    --secondary-foreground: 267 20% 9%;
+
+    --muted: 263 20% 16%;
+    --muted-foreground: 267 14% 69%;
+
+    --accent: 317 43% 16%;
+    --accent-foreground: 330 100% 85%;
+
+    --destructive: 4 69% 63%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 155 49% 52%;
+    --success-foreground: 0 0% 6%;
+
+    --warning: 39 73% 59%;
+    --warning-foreground: 0 0% 6%;
+
+    --border: 268 17% 22%;
+    --input: 268 17% 22%;
+    --ring: 330 100% 69%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
